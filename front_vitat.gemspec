@@ -5,11 +5,11 @@ require 'FrontVitat/version'
 Gem::Specification.new do |s|
   s.name     = 'front_vitat'
   s.version  = FrontVitat::VERSION
-  spec.authors = ["AmandavrVitat"]
-  spec.email = ["amanda.rocha@vitat.com.br"]
-  spec.summary = "front vitat"
-  spec.description = "front vitat"
-  spec.homepage = "https://github.com/sejavitat/front_vitat"
+  s.authors = ["AmandavrVitat"]
+  s.email = ["amanda.rocha@vitat.com.br"]
+  s.summary = "front vitat"
+  s.description = "front vitat"
+  s.homepage = "https://github.com/sejavitat/front_vitat"
 
   # SassC requires Ruby 2.3.3. Also specify here to make it obvious.
   s.required_ruby_version = '>= 2.3.3'
