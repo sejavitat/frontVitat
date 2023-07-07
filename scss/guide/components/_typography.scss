@@ -1,0 +1,157 @@
+@import "../variables";
+
+//DESIGN SYSTEM VITAT -- TYPOGRAPHY
+.heading {
+  font-family: $font-family-highlight;
+  margin-bottom: $spacing-xxxs;
+  color: $neutral-color-low-pure;
+  &__1 {
+    font-weight: $font-weight-medium;
+    font-size: $font-size-xl;
+    line-height: $line-height-xs;
+    @media (min-width: 1200px) {
+      font-size: $font-size-xxxl;
+    }
+  }
+  &__2 {
+    font-weight: $font-weight-regular;
+    font-size: $font-size-lg;
+    line-height: $line-height-sm;
+    @media (min-width: 1200px) {
+      font-size: $font-size-xl;
+    }
+  }
+  &__3 {
+    font-weight: $font-weight-medium;
+    font-size: $font-size-md;
+    line-height: $line-height-sm;
+    @media (min-width: 1200px) {
+      font-size: $font-size-lg;
+    }
+  }
+  &__4 {
+    font-weight: $font-weight-regular;
+    font-size: $font-size-md;
+    line-height: $line-height-sm;
+    @media (min-width: 1200px) {
+      font-size: $font-size-lg;
+    }
+  }
+  &__5 {
+    font-weight: $font-weight-bold;
+    font-size: $font-size-sm;
+    line-height: $line-height-sm;
+    @media (min-width: 1200px) {
+      font-size: $font-size-md;
+    }
+  }
+  &__6 {
+    font-weight: $font-weight-medium;
+    font-size: $font-size-xs;
+    line-height: $line-height-sm;
+    @media (min-width: 1200px) {
+      font-size: $font-size-sm;
+    }
+  }
+  &__7 {
+    font-weight: $font-weight-medium;
+    font-size: $font-size-xxs;
+    line-height: $line-height-sm;
+    @media (min-width: 1200px) {
+      font-size: $font-size-xs;
+    }
+  }
+}
+.body {
+  font-family: $font-family-base;
+  margin-bottom: $spacing-xxxs;
+  color: $neutral-color-low-medium;
+  &__1 {
+    font-weight: $font-weight-regular;
+    font-size: $font-size-xxs;
+    line-height: $line-height-lg;
+    @media (min-width: 1200px) {
+      font-size: $font-size-xs;
+    }
+    &--bold {
+      font-weight: $font-weight-bold;
+    }
+    &--italic {
+      font-style: italic;
+    }
+    &--link {
+      font-weight: $font-weight-medium;
+      text-decoration: underline;
+      color: $brand-color-secondary-pure;
+      &:hover {
+        color: $brand-color-secondary-medium;
+        text-decoration: underline;
+      }
+      &:visited {
+        text-decoration: underline;
+        color: $brand-color-secondary-pure;
+      }
+    }
+  }
+  &__2 {
+    font-weight: $font-weight-regular;
+    font-size: $font-size-xxxs;
+    line-height: $line-height-lg;
+    @media (min-width: 1200px) {
+      font-size: $font-size-xxs;
+    }
+    &--bold {
+      font-weight: $font-weight-medium;
+    }
+    &--italic {
+      font-style: italic;
+    }
+    &--link {
+      font-weight: $font-weight-medium;
+      text-decoration: underline;
+      color: $brand-color-secondary-pure;
+      &:hover {
+        color: $brand-color-secondary-medium;
+        text-decoration: underline;
+      }
+      &:visited {
+        text-decoration: underline;
+        color: $brand-color-secondary-pure;
+      }
+    }
+  }
+}
+.overline {
+  font-family: $font-family-base;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-xxxs;
+  line-height: $line-height-lg;
+  margin-bottom: $spacing-quarck;
+  letter-spacing: 0.03em;
+  color: $neutral-color-low-light;
+  @media (min-width: 1200px) {
+    font-size: $font-size-xxxs;
+  }
+}
+.pillText {
+  font-family: $font-family-base;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-xxxs;
+  line-height: $line-height-sm;
+  letter-spacing: 0.03em;
+  color: $neutral-color-low-medium;
+  @media (min-width: 1200px) {
+    font-size: $font-size-xxxs;
+  }
+}
+.link {
+  font-family: $font-family-base;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-xxs;
+  line-height: $line-height-lg;
+  letter-spacing: 0.03em;
+  color: $neutral-color-low-pure;
+  @media (min-width: 1200px) {
+    font-size: $font-size-xs;
+  }
+}

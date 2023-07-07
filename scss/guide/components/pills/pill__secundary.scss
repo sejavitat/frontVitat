@@ -1,0 +1,8 @@
+@import "_variables.scss";
+@import "../_typography";
+
+.pill__secundary {
+  @extend .pill;
+  color: $brand-color-secondary-pure;
+  border-color: $brand-color-secondary-pure;
+}

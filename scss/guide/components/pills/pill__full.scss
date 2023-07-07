@@ -1,0 +1,8 @@
+@import "_variables.scss";
+@import "../_typography";
+
+.pill__full {
+  @extend .pill;
+  color: $neutral-color-low-pure;
+  border: $border-radius-none solid $well-being-color-primary;
+}

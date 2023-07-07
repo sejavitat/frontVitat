@@ -1,0 +1,26 @@
+@import "_variables.scss";
+@import "../_typography";
+
+.btn{
+  font-family:$font-family-base;
+  font-weight:$font-weight-medium;
+  padding:$spacing_inset-nano $spacing_inset-sm;
+  border-radius:$border-radius-pill;
+  text-align: center;
+  font-size:$font-size-xxs;
+  width:100%;
+  cursor:pointer;
+  @media(min-width:1200px) {
+    min-width:$sizing-xl;
+  }
+  &:focus{
+    animation: focus 2s infinite ease-in-out;
+  }
+  &:disabled{
+    background:$neutral-color-high-medium;
+    opacity: $opacity-level-medium;
+  }
+}
+
+
+

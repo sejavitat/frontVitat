@@ -1,0 +1,11 @@
+@import "_variables.scss";
+@import "../_typography";
+
+.btn__secondary{
+  @extend .btn;
+  color:$brand-color-primary-pure;
+  background:$neutral-color-low-pure;
+  &:hover{
+    background:$neutral-color-low-dark;
+  }
+}

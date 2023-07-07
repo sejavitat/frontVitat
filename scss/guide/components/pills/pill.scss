@@ -1,0 +1,31 @@
+@import "_variables.scss";
+@import "../_typography";
+
+.pill {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-size-xxxs;
+  font-weight: $font-weight-medium;
+  text-decoration: none;
+  height: $sizing-xs;
+  border: $border-width-thin solid;
+  border-radius: $border-radius-pill;
+  margin-right: 8px;
+  padding: $spacing-nano $spacing-xxxs;
+  &:hover {
+    text-decoration: underline;
+  }
+  @media (min-width: 1200px) {
+    margin-bottom: $sizing-xxxs;
+  }
+}
+//helper
+.bg__yellow {
+  background-color: $well-being-color-primary;
+}
+
+.bg__pink {
+  background-color: $health-color-primary;
+}
