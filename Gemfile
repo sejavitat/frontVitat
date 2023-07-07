@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
-
-# Specify your gem's dependencies in vitat-css.gemspec
+# Specify your gem's dependencies in front_vitat.gemspec
 gemspec
+
+gem "rake", "~> 13.0"
