@@ -1,8 +1,0 @@
-@import "_variables.scss";
-@import "../_typography";
-
-.pill__small {
-  @extend .pill;
-  padding: $spacing-quarck $spacing-nano;
-  height: $sizing-xxs;
-}

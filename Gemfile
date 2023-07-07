@@ -1,8 +1,11 @@
-# frozen_string_literal: true
+source 'https://rubygems.org'
 
-source "https://rubygems.org"
-
-# Specify your gem's dependencies in front_vitat.gemspec
 gemspec
 
-gem "rake", "~> 13.0"
+group :development do
+  gem 'popper_js', '>= 1.12.3'
+end
+
+group :debug do
+  gem 'byebug', platforms: [:mri], require: false
+end
